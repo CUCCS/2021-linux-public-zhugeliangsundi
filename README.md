@@ -21,7 +21,7 @@
 
 2. 从虚拟机处下载autoinstall-user-data并修改参数，删除手工安装的序列号：
 ![从虚拟机下载autoinstall-user-data](./screenshots/在第一个虚拟机处下载autoinstall文件.png)
-'''
+```
 #cloud-config
 autoinstall:
   apt:
@@ -69,7 +69,7 @@ autoinstall:
     - {device: format-0, path: /boot, type: mount, id: mount-0}
   version: 1
 
-'''
+```
 3. 新建可用于安装64位Ubuntu系统的虚拟机配置
 ![新建虚拟机](./screenshots/新建虚拟机配置.png)
 4. 于SATA下按序挂载镜像安装文件与focal-init.iso
