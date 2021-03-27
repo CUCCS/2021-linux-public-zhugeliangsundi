@@ -58,4 +58,4 @@ Linux
 
 ### 第六、七节录像
 
-偷个小懒写记录了QAQ[录屏在这](https://asciinema.org/a/4UrFLQx33Vgt99VCsI2M07UEn)
+偷个小懒不写记录了QAQ[录屏在这](https://asciinema.org/a/4UrFLQx33Vgt99VCsI2M07UEn)
