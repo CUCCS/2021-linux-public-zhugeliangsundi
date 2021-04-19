@@ -27,19 +27,19 @@
 ### 1.如何添加一个用户并使其具备sudo执行程序的权限？
 1. 添加新用户 `adduser username`
 2.使用 `sudo usermod -G username sudo -a username`为其授予sudo权限
-![./img/创建新用户qlr1.png](创建新用户)
+![创建新用户](./img/创建新用户qlr1.png)
 ### 2.如何将一个用户添加到一个用户组
 不能使用`usermod -G group1`这样会使用户离开原先所在的用户组，应使用`usermod -a -G group1 user`命令
 
 ### 3.如何查看当前系统的分区表和文件系统详细信息？
 1. `fdisk -l`可以列出硬盘的分区表、文件大小与分区类型
-![./img/fdisk查看分区.png](fdisk查看分区)
+![查看分区](./img/fdisk查看分区.png)
 2. `sudo parted /dev/sda`命令可以查看各分区的系统文件类型
-![./img/查看系统文件类型.png](查看系统文件类型)
+![查看系统文件类型](./img/查看系统文件类型.png)
 
 ### 4.如何实现开机自动挂载Virtualbox的共享目录分区？
 1. 在virtualbox中点击设备->共享文件夹，在里面设置共享文件夹
-![./img/设置共享文件夹.png](设置共享文件夹)
+![设置共享文件夹](./img/设置共享文件夹.png)
 2. 在Ubuntu的/mnt目录下新建一个名为“share”的文件夹
 ```
 cd /mnt/
